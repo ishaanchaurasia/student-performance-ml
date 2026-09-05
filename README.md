@@ -122,6 +122,10 @@ While the model including G1 and G2 achieves a substantially higher R², the mod
 - Scikit-learn
 - Jupyter Notebook
 
+The notebook's own description says the same split is used for both experiments and that preprocessing is placed inside the pipeline to avoid validation-fold information leaking into training. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+
+So the README above accurately reflects what your final notebook actually does.
+
 ## Repository Structure
 
 ```text
